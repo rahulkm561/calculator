@@ -1,0 +1,38 @@
+<div class="wrapper">
+        <div class="cal">
+            <div class="cal-input">
+                <input type="number" [(ngModel)] = 'num1'>
+            </div>
+            <div class="icons">
+                {{this.icon}}
+            </div>
+            <div class="cal-input">
+                <input type="number" [(ngModel)] = 'num2'>
+            </div>
+            <div class="icons">
+                =
+            </div>
+            <div class="cal-input">
+                <input type="number" [(ngModel)] = 'results'>
+            </div>
+
+        </div>
+        <div class="main-wrapper">
+            <div class="buttons">
+                <button type="button" (click) = "type('Addtion', '+')">Addtion</button>
+            </div>
+            <div class="buttons">
+                <button type="button" (click) = "type('Substration', '-')">Substration</button>
+            </div>
+            <div class="buttons">
+                <button type="button" (click) = "type('Multiply', '*')">Multiply</button>
+            </div>
+            <div class="buttons">
+                <button type="button" (click) = "type('Devide', '/')">Devide</button>
+            </div>
+            <div class="buttons">
+                <button type="button" [disabled] = 'calType == ""' (click) = "eqaul()">Equal</button>
+            </div>
+        </div>
+      
+</div>

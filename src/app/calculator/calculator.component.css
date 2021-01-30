@@ -1,0 +1,42 @@
+.wrapper {
+    display: inline-block;
+    width: 50%;
+    margin: 0 auto;
+    float: none;
+    background: #fcfcfc;
+}
+.wrapper .cal {
+    display: inline-block;
+    width: 100%;
+}
+.cal-input {
+    display: inline-block;
+    width: 25%;
+    float: left;
+}
+.icons {
+    display: inline-block;
+    width: 11px;
+    float: left;
+    margin-right: 15px;
+}
+
+.main-wrapper {
+    display: inline-block;
+    width: 100%;
+    margin-top: 18px;
+    padding-bottom: 24px;
+}
+
+.main-wrapper .buttons {
+    display: inline-block;
+    margin: 0 42px 0 1px;
+}
+
+.main-wrapper .buttons button {
+    background: #9d9d9d;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 3px;
+}
